@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="424.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="latihan3biodata.FXMLDocumentController">
+    <children>
+        <Button id="proses" fx:id="proses" layoutX="92.0" layoutY="216.0" onAction="#proses" prefHeight="40.0" prefWidth="69.0" text="Proses" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="37.0" layoutY="47.0" prefHeight="27.0" prefWidth="52.0" text="Nama" />
+      <Label layoutX="35.0" layoutY="87.0" prefHeight="27.0" prefWidth="43.0" text="Kelas" />
+      <Label layoutX="37.0" layoutY="124.0" prefHeight="27.0" prefWidth="52.0" text="Alamat" />
+      <Label layoutX="37.0" layoutY="162.0" prefHeight="27.0" prefWidth="52.0" text="Telepon" />
+      <TextField id="Nama" fx:id="Nama" layoutX="169.0" layoutY="48.0" onAction="#Nama" prefHeight="25.0" prefWidth="201.0" />
+      <TextField id="Kelas" fx:id="Kelas" layoutX="169.0" layoutY="88.0" onAction="#Kelas" prefHeight="25.0" prefWidth="201.0" />
+      <TextField id="Alamat" fx:id="Alamat" layoutX="169.0" layoutY="125.0" onAction="#Alamat" prefHeight="25.0" prefWidth="201.0" />
+      <TextField id="Telepon" fx:id="Telepon" layoutX="169.0" layoutY="163.0" onAction="#Telepon" prefHeight="25.0" prefWidth="201.0" />
+      <TextArea id="HasilAkhir" fx:id="HasilAkhir" layoutX="37.0" layoutY="283.0" prefHeight="121.0" prefWidth="348.0" />
+      <Button id="hapus" fx:id="hapus" layoutX="247.0" layoutY="216.0" mnemonicParsing="false" onAction="#hapus" prefHeight="40.0" prefWidth="69.0" text="Hapus" />
+    </children>
+</AnchorPane>
